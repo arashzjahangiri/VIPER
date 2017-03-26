@@ -1,0 +1,745 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		980935F21E879DFE000A75B5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 980935F11E879DFE000A75B5 /* main.m */; };
+		980935F51E879DFE000A75B5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 980935F41E879DFE000A75B5 /* AppDelegate.m */; };
+		980935FB1E879DFE000A75B5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 980935F91E879DFE000A75B5 /* Main.storyboard */; };
+		980935FD1E879DFE000A75B5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 980935FC1E879DFE000A75B5 /* Assets.xcassets */; };
+		980936001E879DFE000A75B5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 980935FE1E879DFE000A75B5 /* LaunchScreen.storyboard */; };
+		9809360B1E879DFE000A75B5 /* TryVIPERTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9809360A1E879DFE000A75B5 /* TryVIPERTests.m */; };
+		980936161E879DFE000A75B5 /* TryVIPERUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 980936151E879DFE000A75B5 /* TryVIPERUITests.m */; };
+		980936621E87A171000A75B5 /* GetDateAPIDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9809364A1E87A171000A75B5 /* GetDateAPIDataManager.m */; };
+		980936631E87A171000A75B5 /* DateEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = 9809364D1E87A171000A75B5 /* DateEntity.m */; };
+		980936641E87A171000A75B5 /* GetDateInteractor.m in Sources */ = {isa = PBXBuildFile; fileRef = 980936501E87A171000A75B5 /* GetDateInteractor.m */; };
+		980936671E87A171000A75B5 /* GetDatePresenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 980936591E87A171000A75B5 /* GetDatePresenter.m */; };
+		980936681E87A171000A75B5 /* GetDateView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9809365E1E87A171000A75B5 /* GetDateView.m */; };
+		980936691E87A171000A75B5 /* GetDateWireFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = 980936611E87A171000A75B5 /* GetDateWireFrame.m */; };
+		980936701E87A4F1000A75B5 /* Networking.m in Sources */ = {isa = PBXBuildFile; fileRef = 9809366D1E87A4F1000A75B5 /* Networking.m */; };
+		980936711E87A4F1000A75B5 /* NetworkStatusManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9809366F1E87A4F1000A75B5 /* NetworkStatusManager.m */; };
+		FF8984C6706D6D5F3900AB9D /* libPods-TryVIPER.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 04AD9DE8B67A9089AF4007BC /* libPods-TryVIPER.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		980936071E879DFE000A75B5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 980935E51E879DFE000A75B5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 980935EC1E879DFE000A75B5;
+			remoteInfo = TryVIPER;
+		};
+		980936121E879DFE000A75B5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 980935E51E879DFE000A75B5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 980935EC1E879DFE000A75B5;
+			remoteInfo = TryVIPER;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		009972C552958C8E357280CF /* Pods-TryVIPER.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TryVIPER.release.xcconfig"; path = "Pods/Target Support Files/Pods-TryVIPER/Pods-TryVIPER.release.xcconfig"; sourceTree = "<group>"; };
+		04AD9DE8B67A9089AF4007BC /* libPods-TryVIPER.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TryVIPER.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		980935ED1E879DFE000A75B5 /* TryVIPER.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TryVIPER.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		980935F11E879DFE000A75B5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		980935F31E879DFE000A75B5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		980935F41E879DFE000A75B5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		980935FA1E879DFE000A75B5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		980935FC1E879DFE000A75B5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		980935FF1E879DFE000A75B5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		980936011E879DFE000A75B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		980936061E879DFE000A75B5 /* TryVIPERTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TryVIPERTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9809360A1E879DFE000A75B5 /* TryVIPERTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TryVIPERTests.m; sourceTree = "<group>"; };
+		9809360C1E879DFE000A75B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		980936111E879DFE000A75B5 /* TryVIPERUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TryVIPERUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		980936151E879DFE000A75B5 /* TryVIPERUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TryVIPERUITests.m; sourceTree = "<group>"; };
+		980936171E879DFE000A75B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		980936491E87A171000A75B5 /* GetDateAPIDataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GetDateAPIDataManager.h; sourceTree = "<group>"; };
+		9809364A1E87A171000A75B5 /* GetDateAPIDataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GetDateAPIDataManager.m; sourceTree = "<group>"; };
+		9809364C1E87A171000A75B5 /* DateEntity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DateEntity.h; sourceTree = "<group>"; };
+		9809364D1E87A171000A75B5 /* DateEntity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DateEntity.m; sourceTree = "<group>"; };
+		9809364F1E87A171000A75B5 /* GetDateInteractor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GetDateInteractor.h; sourceTree = "<group>"; };
+		980936501E87A171000A75B5 /* GetDateInteractor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GetDateInteractor.m; sourceTree = "<group>"; };
+		980936581E87A171000A75B5 /* GetDatePresenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GetDatePresenter.h; sourceTree = "<group>"; };
+		980936591E87A171000A75B5 /* GetDatePresenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GetDatePresenter.m; sourceTree = "<group>"; };
+		9809365B1E87A171000A75B5 /* GetDateProtocols.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GetDateProtocols.h; sourceTree = "<group>"; };
+		9809365D1E87A171000A75B5 /* GetDateView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GetDateView.h; sourceTree = "<group>"; };
+		9809365E1E87A171000A75B5 /* GetDateView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GetDateView.m; sourceTree = "<group>"; };
+		980936601E87A171000A75B5 /* GetDateWireFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GetDateWireFrame.h; sourceTree = "<group>"; };
+		980936611E87A171000A75B5 /* GetDateWireFrame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GetDateWireFrame.m; sourceTree = "<group>"; };
+		9809366B1E87A4F1000A75B5 /* NetworkApi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetworkApi.h; sourceTree = "<group>"; };
+		9809366C1E87A4F1000A75B5 /* Networking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Networking.h; sourceTree = "<group>"; };
+		9809366D1E87A4F1000A75B5 /* Networking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Networking.m; sourceTree = "<group>"; };
+		9809366E1E87A4F1000A75B5 /* NetworkStatusManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetworkStatusManager.h; sourceTree = "<group>"; };
+		9809366F1E87A4F1000A75B5 /* NetworkStatusManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetworkStatusManager.m; sourceTree = "<group>"; };
+		D885FBBD774F0EF1EAB82DDD /* Pods-TryVIPER.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TryVIPER.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TryVIPER/Pods-TryVIPER.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		980935EA1E879DFE000A75B5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF8984C6706D6D5F3900AB9D /* libPods-TryVIPER.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		980936031E879DFE000A75B5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9809360E1E879DFE000A75B5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		284DD5011A4B2D110A857698 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				04AD9DE8B67A9089AF4007BC /* libPods-TryVIPER.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		980935E41E879DFE000A75B5 = {
+			isa = PBXGroup;
+			children = (
+				980935EF1E879DFE000A75B5 /* TryVIPER */,
+				980936091E879DFE000A75B5 /* TryVIPERTests */,
+				980936141E879DFE000A75B5 /* TryVIPERUITests */,
+				980935EE1E879DFE000A75B5 /* Products */,
+				EC4D64E6689F6F1197A24F20 /* Pods */,
+				284DD5011A4B2D110A857698 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		980935EE1E879DFE000A75B5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				980935ED1E879DFE000A75B5 /* TryVIPER.app */,
+				980936061E879DFE000A75B5 /* TryVIPERTests.xctest */,
+				980936111E879DFE000A75B5 /* TryVIPERUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		980935EF1E879DFE000A75B5 /* TryVIPER */ = {
+			isa = PBXGroup;
+			children = (
+				980936461E87A171000A75B5 /* GetDate */,
+				980935F31E879DFE000A75B5 /* AppDelegate.h */,
+				980935F41E879DFE000A75B5 /* AppDelegate.m */,
+				980935F91E879DFE000A75B5 /* Main.storyboard */,
+				980935FC1E879DFE000A75B5 /* Assets.xcassets */,
+				980935FE1E879DFE000A75B5 /* LaunchScreen.storyboard */,
+				980936011E879DFE000A75B5 /* Info.plist */,
+				980935F01E879DFE000A75B5 /* Supporting Files */,
+			);
+			path = TryVIPER;
+			sourceTree = "<group>";
+		};
+		980935F01E879DFE000A75B5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				980935F11E879DFE000A75B5 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		980936091E879DFE000A75B5 /* TryVIPERTests */ = {
+			isa = PBXGroup;
+			children = (
+				9809360A1E879DFE000A75B5 /* TryVIPERTests.m */,
+				9809360C1E879DFE000A75B5 /* Info.plist */,
+			);
+			path = TryVIPERTests;
+			sourceTree = "<group>";
+		};
+		980936141E879DFE000A75B5 /* TryVIPERUITests */ = {
+			isa = PBXGroup;
+			children = (
+				980936151E879DFE000A75B5 /* TryVIPERUITests.m */,
+				980936171E879DFE000A75B5 /* Info.plist */,
+			);
+			path = TryVIPERUITests;
+			sourceTree = "<group>";
+		};
+		980936461E87A171000A75B5 /* GetDate */ = {
+			isa = PBXGroup;
+			children = (
+				980936471E87A171000A75B5 /* DataManager */,
+				9809364E1E87A171000A75B5 /* Interactor */,
+				980936571E87A171000A75B5 /* Presenter */,
+				9809365A1E87A171000A75B5 /* Protocols */,
+				9809365C1E87A171000A75B5 /* View */,
+				9809365F1E87A171000A75B5 /* WireFrame */,
+			);
+			path = GetDate;
+			sourceTree = "<group>";
+		};
+		980936471E87A171000A75B5 /* DataManager */ = {
+			isa = PBXGroup;
+			children = (
+				980936481E87A171000A75B5 /* API */,
+				9809364B1E87A171000A75B5 /* Entities */,
+			);
+			path = DataManager;
+			sourceTree = "<group>";
+		};
+		980936481E87A171000A75B5 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				9809366A1E87A4F1000A75B5 /* Network */,
+				980936491E87A171000A75B5 /* GetDateAPIDataManager.h */,
+				9809364A1E87A171000A75B5 /* GetDateAPIDataManager.m */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		9809364B1E87A171000A75B5 /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+				9809364C1E87A171000A75B5 /* DateEntity.h */,
+				9809364D1E87A171000A75B5 /* DateEntity.m */,
+			);
+			path = Entities;
+			sourceTree = "<group>";
+		};
+		9809364E1E87A171000A75B5 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				9809364F1E87A171000A75B5 /* GetDateInteractor.h */,
+				980936501E87A171000A75B5 /* GetDateInteractor.m */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		980936571E87A171000A75B5 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				980936581E87A171000A75B5 /* GetDatePresenter.h */,
+				980936591E87A171000A75B5 /* GetDatePresenter.m */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		9809365A1E87A171000A75B5 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				9809365B1E87A171000A75B5 /* GetDateProtocols.h */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		9809365C1E87A171000A75B5 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				9809365D1E87A171000A75B5 /* GetDateView.h */,
+				9809365E1E87A171000A75B5 /* GetDateView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		9809365F1E87A171000A75B5 /* WireFrame */ = {
+			isa = PBXGroup;
+			children = (
+				980936601E87A171000A75B5 /* GetDateWireFrame.h */,
+				980936611E87A171000A75B5 /* GetDateWireFrame.m */,
+			);
+			path = WireFrame;
+			sourceTree = "<group>";
+		};
+		9809366A1E87A4F1000A75B5 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				9809366B1E87A4F1000A75B5 /* NetworkApi.h */,
+				9809366C1E87A4F1000A75B5 /* Networking.h */,
+				9809366D1E87A4F1000A75B5 /* Networking.m */,
+				9809366E1E87A4F1000A75B5 /* NetworkStatusManager.h */,
+				9809366F1E87A4F1000A75B5 /* NetworkStatusManager.m */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		EC4D64E6689F6F1197A24F20 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D885FBBD774F0EF1EAB82DDD /* Pods-TryVIPER.debug.xcconfig */,
+				009972C552958C8E357280CF /* Pods-TryVIPER.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		980935EC1E879DFE000A75B5 /* TryVIPER */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9809361A1E879DFE000A75B5 /* Build configuration list for PBXNativeTarget "TryVIPER" */;
+			buildPhases = (
+				713E57CC47813D7CE28DD1A3 /* [CP] Check Pods Manifest.lock */,
+				980935E91E879DFE000A75B5 /* Sources */,
+				980935EA1E879DFE000A75B5 /* Frameworks */,
+				980935EB1E879DFE000A75B5 /* Resources */,
+				CE2B901FF01762D315F2DC95 /* [CP] Embed Pods Frameworks */,
+				8EBE151F2247E56B52B70595 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TryVIPER;
+			productName = TryVIPER;
+			productReference = 980935ED1E879DFE000A75B5 /* TryVIPER.app */;
+			productType = "com.apple.product-type.application";
+		};
+		980936051E879DFE000A75B5 /* TryVIPERTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9809361D1E879DFE000A75B5 /* Build configuration list for PBXNativeTarget "TryVIPERTests" */;
+			buildPhases = (
+				980936021E879DFE000A75B5 /* Sources */,
+				980936031E879DFE000A75B5 /* Frameworks */,
+				980936041E879DFE000A75B5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				980936081E879DFE000A75B5 /* PBXTargetDependency */,
+			);
+			name = TryVIPERTests;
+			productName = TryVIPERTests;
+			productReference = 980936061E879DFE000A75B5 /* TryVIPERTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		980936101E879DFE000A75B5 /* TryVIPERUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 980936201E879DFE000A75B5 /* Build configuration list for PBXNativeTarget "TryVIPERUITests" */;
+			buildPhases = (
+				9809360D1E879DFE000A75B5 /* Sources */,
+				9809360E1E879DFE000A75B5 /* Frameworks */,
+				9809360F1E879DFE000A75B5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				980936131E879DFE000A75B5 /* PBXTargetDependency */,
+			);
+			name = TryVIPERUITests;
+			productName = TryVIPERUITests;
+			productReference = 980936111E879DFE000A75B5 /* TryVIPERUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		980935E51E879DFE000A75B5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Arash Z. Jahangiri";
+				TargetAttributes = {
+					980935EC1E879DFE000A75B5 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 3JH5557P38;
+						ProvisioningStyle = Automatic;
+					};
+					980936051E879DFE000A75B5 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 3JH5557P38;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 980935EC1E879DFE000A75B5;
+					};
+					980936101E879DFE000A75B5 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 3JH5557P38;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 980935EC1E879DFE000A75B5;
+					};
+				};
+			};
+			buildConfigurationList = 980935E81E879DFE000A75B5 /* Build configuration list for PBXProject "TryVIPER" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 980935E41E879DFE000A75B5;
+			productRefGroup = 980935EE1E879DFE000A75B5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				980935EC1E879DFE000A75B5 /* TryVIPER */,
+				980936051E879DFE000A75B5 /* TryVIPERTests */,
+				980936101E879DFE000A75B5 /* TryVIPERUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		980935EB1E879DFE000A75B5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				980936001E879DFE000A75B5 /* LaunchScreen.storyboard in Resources */,
+				980935FD1E879DFE000A75B5 /* Assets.xcassets in Resources */,
+				980935FB1E879DFE000A75B5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		980936041E879DFE000A75B5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9809360F1E879DFE000A75B5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		713E57CC47813D7CE28DD1A3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		8EBE151F2247E56B52B70595 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TryVIPER/Pods-TryVIPER-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CE2B901FF01762D315F2DC95 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TryVIPER/Pods-TryVIPER-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		980935E91E879DFE000A75B5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				980935F51E879DFE000A75B5 /* AppDelegate.m in Sources */,
+				980936691E87A171000A75B5 /* GetDateWireFrame.m in Sources */,
+				980936641E87A171000A75B5 /* GetDateInteractor.m in Sources */,
+				980936671E87A171000A75B5 /* GetDatePresenter.m in Sources */,
+				980935F21E879DFE000A75B5 /* main.m in Sources */,
+				980936681E87A171000A75B5 /* GetDateView.m in Sources */,
+				980936631E87A171000A75B5 /* DateEntity.m in Sources */,
+				980936621E87A171000A75B5 /* GetDateAPIDataManager.m in Sources */,
+				980936711E87A4F1000A75B5 /* NetworkStatusManager.m in Sources */,
+				980936701E87A4F1000A75B5 /* Networking.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		980936021E879DFE000A75B5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9809360B1E879DFE000A75B5 /* TryVIPERTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9809360D1E879DFE000A75B5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				980936161E879DFE000A75B5 /* TryVIPERUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		980936081E879DFE000A75B5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 980935EC1E879DFE000A75B5 /* TryVIPER */;
+			targetProxy = 980936071E879DFE000A75B5 /* PBXContainerItemProxy */;
+		};
+		980936131E879DFE000A75B5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 980935EC1E879DFE000A75B5 /* TryVIPER */;
+			targetProxy = 980936121E879DFE000A75B5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		980935F91E879DFE000A75B5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				980935FA1E879DFE000A75B5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		980935FE1E879DFE000A75B5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				980935FF1E879DFE000A75B5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		980936181E879DFE000A75B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		980936191E879DFE000A75B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9809361B1E879DFE000A75B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D885FBBD774F0EF1EAB82DDD /* Pods-TryVIPER.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 3JH5557P38;
+				INFOPLIST_FILE = TryVIPER/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = co.arash.Test.TryVIPER;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9809361C1E879DFE000A75B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 009972C552958C8E357280CF /* Pods-TryVIPER.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 3JH5557P38;
+				INFOPLIST_FILE = TryVIPER/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = co.arash.Test.TryVIPER;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		9809361E1E879DFE000A75B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 3JH5557P38;
+				INFOPLIST_FILE = TryVIPERTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = co.arash.Test.TryVIPERTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TryVIPER.app/TryVIPER";
+			};
+			name = Debug;
+		};
+		9809361F1E879DFE000A75B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 3JH5557P38;
+				INFOPLIST_FILE = TryVIPERTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = co.arash.Test.TryVIPERTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TryVIPER.app/TryVIPER";
+			};
+			name = Release;
+		};
+		980936211E879DFE000A75B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 3JH5557P38;
+				INFOPLIST_FILE = TryVIPERUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = co.arash.Test.TryVIPERUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TryVIPER;
+			};
+			name = Debug;
+		};
+		980936221E879DFE000A75B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 3JH5557P38;
+				INFOPLIST_FILE = TryVIPERUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = co.arash.Test.TryVIPERUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TryVIPER;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		980935E81E879DFE000A75B5 /* Build configuration list for PBXProject "TryVIPER" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				980936181E879DFE000A75B5 /* Debug */,
+				980936191E879DFE000A75B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9809361A1E879DFE000A75B5 /* Build configuration list for PBXNativeTarget "TryVIPER" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9809361B1E879DFE000A75B5 /* Debug */,
+				9809361C1E879DFE000A75B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9809361D1E879DFE000A75B5 /* Build configuration list for PBXNativeTarget "TryVIPERTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9809361E1E879DFE000A75B5 /* Debug */,
+				9809361F1E879DFE000A75B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		980936201E879DFE000A75B5 /* Build configuration list for PBXNativeTarget "TryVIPERUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				980936211E879DFE000A75B5 /* Debug */,
+				980936221E879DFE000A75B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 980935E51E879DFE000A75B5 /* Project object */;
+}
