@@ -10,7 +10,7 @@ Make sure you have node.js and npm installed.
 2.cd VIPER/server<br />
 3.npm update<br />
 4.node server.js<br />
-and run pod install in the iOS project.<br />
+5.run pod install in the iOS project.<br />
 
 ## Questions<br/>
 If you have any questions about the project, please contact via email: arashzjahangiri@gmail.com
