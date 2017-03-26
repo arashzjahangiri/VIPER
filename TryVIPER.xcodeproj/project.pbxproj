@@ -22,6 +22,7 @@
 		980936691E87A171000A75B5 /* GetDateWireFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = 980936611E87A171000A75B5 /* GetDateWireFrame.m */; };
 		980936701E87A4F1000A75B5 /* Networking.m in Sources */ = {isa = PBXBuildFile; fileRef = 9809366D1E87A4F1000A75B5 /* Networking.m */; };
 		980936711E87A4F1000A75B5 /* NetworkStatusManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9809366F1E87A4F1000A75B5 /* NetworkStatusManager.m */; };
+		980936741E87B25D000A75B5 /* MockGetDatePresenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 980936731E87B25D000A75B5 /* MockGetDatePresenter.m */; };
 		FF8984C6706D6D5F3900AB9D /* libPods-TryVIPER.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 04AD9DE8B67A9089AF4007BC /* libPods-TryVIPER.a */; };
 /* End PBXBuildFile section */
 
@@ -77,6 +78,8 @@
 		9809366D1E87A4F1000A75B5 /* Networking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Networking.m; sourceTree = "<group>"; };
 		9809366E1E87A4F1000A75B5 /* NetworkStatusManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetworkStatusManager.h; sourceTree = "<group>"; };
 		9809366F1E87A4F1000A75B5 /* NetworkStatusManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetworkStatusManager.m; sourceTree = "<group>"; };
+		980936721E87B25D000A75B5 /* MockGetDatePresenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MockGetDatePresenter.h; sourceTree = "<group>"; };
+		980936731E87B25D000A75B5 /* MockGetDatePresenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MockGetDatePresenter.m; sourceTree = "<group>"; };
 		D885FBBD774F0EF1EAB82DDD /* Pods-TryVIPER.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TryVIPER.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TryVIPER/Pods-TryVIPER.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -162,6 +165,8 @@
 		980936091E879DFE000A75B5 /* TryVIPERTests */ = {
 			isa = PBXGroup;
 			children = (
+				980936721E87B25D000A75B5 /* MockGetDatePresenter.h */,
+				980936731E87B25D000A75B5 /* MockGetDatePresenter.m */,
 				9809360A1E879DFE000A75B5 /* TryVIPERTests.m */,
 				9809360C1E879DFE000A75B5 /* Info.plist */,
 			);
@@ -488,6 +493,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9809360B1E879DFE000A75B5 /* TryVIPERTests.m in Sources */,
+				980936741E87B25D000A75B5 /* MockGetDatePresenter.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

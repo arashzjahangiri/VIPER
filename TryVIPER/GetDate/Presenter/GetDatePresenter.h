@@ -15,6 +15,6 @@
 @property (nonatomic, strong) id <GetDateInteractorInputProtocol> interactor;
 @property (nonatomic, strong) id <GetDateWireFrameProtocol> wireFrame;
 
-- (void) didRequestdate;
+- (void) didRequestDate;
 
 @end

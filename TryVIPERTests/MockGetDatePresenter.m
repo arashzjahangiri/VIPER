@@ -1,20 +1,18 @@
 //
-//  GetDatePresenter.m
+//  MockGetDatePresenter.m
 //  TryVIPER
 //
 //  Created by Arash on 1/26/17.
 //  Copyright © 2017 Arash Z. Jahangiri. All rights reserved.
 //
 
-#import "GetDatePresenter.h"
+#import "MockGetDatePresenter.h"
 
-@implementation GetDatePresenter
-
-#pragma mark - GetDatePresenterProtocol
+@implementation MockGetDatePresenter
 
 - (void) didRequestDate {
     [self.interactor getDate:^(DateEntity *date) {
-        [self.view showdate:date.date];
+        self.date = date.date;
     }];
 }
 

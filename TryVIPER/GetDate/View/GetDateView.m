@@ -24,7 +24,7 @@
         [self.dateLabel setText:@"fetching ..."];
         [self animating];
     });
-    [self.presenter didRequestdate];
+    [self.presenter didRequestDate];
 }
 
 #pragma mark - GetDateViewProtocol
