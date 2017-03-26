@@ -2,7 +2,6 @@
 This project shows usage of VIPER Architecture for iOS.
 <br />
 ##Getting Started
-
 The application uses node.js as backend REST client which is running at http://localhost:3000.<br />
 
 Make sure you have node.js and npm installed.
