@@ -19,4 +19,4 @@ Pull requests are welcome!
 
 Licence
 
-MIT ofc.
+MIT.
