@@ -7,13 +7,25 @@
 //
 
 #import "MockGetDatePresenter.h"
+#import "GetDateWireFrame.h"
+#import <XCTest/XCTest.h>
 
 @implementation MockGetDatePresenter
 
-- (void) didRequestDate {
-    [self.interactor getDate:^(DateEntity *date) {
-        self.date = date.date;
-    }];
+- (void)testDidRequestDate {
+    // Given
+    id <GetDateInteractorInputProtocol> interactorMock = [GetDateInteractor new];
+    id <GetDateViewProtocol> viewMock = [GetDateView new];
+    id <GetDateWireFrameProtocol> wireFrameMock = [GetDateWireFrame new];
+    GetDatePresenter *presenter = [GetDatePresenter new];
+    presenter.interactor = interactorMock;
+    presenter.view = viewMock;
+    presenter.wireFrame = wireFrameMock;
+    
+    // When
+    [presenter didRequestDate];
+    
+    // Then
+    
 }
-
 @end

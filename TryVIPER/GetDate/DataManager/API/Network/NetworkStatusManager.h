@@ -13,7 +13,6 @@ typedef NS_ENUM(NSInteger, NetworkStatusType) {
     NetworkStatusNotReachable = 0,    // not connected
     NetworkStatusWWAN,                // 3G
     NetworkStatusWiFi                 // WiFi
-    
 };
 
 @interface NetworkStatusManager : NSObject

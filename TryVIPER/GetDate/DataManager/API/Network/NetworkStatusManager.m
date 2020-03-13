@@ -28,7 +28,7 @@
     if (self) {
         
         AFNetworkReachabilityManager *manager = [AFNetworkReachabilityManager sharedManager];
-        // To detect the network connection status, you must first call the single instance of the startMonitoring method to open the monitor
+        // To detect the network connection status, at first call the single instance of the startMonitoring method to open the monitor
         [manager startMonitoring];
         [manager setReachabilityStatusChangeBlock:^(AFNetworkReachabilityStatus status) {
             
@@ -36,25 +36,25 @@
                 case AFNetworkReachabilityStatusUnknown: {
                     // Not recognized
                     NSLog(@"%@",@"Not recognized");
-                    _networkStatus = AFNetworkReachabilityStatusUnknown;
+                    self.networkStatus = AFNetworkReachabilityStatusUnknown;
                     break;
                 }
                 case AFNetworkReachabilityStatusNotReachable: {
                     // not connected
                     NSLog(@"%@",@"not connected");
-                    _networkStatus = AFNetworkReachabilityStatusNotReachable;
+                    self.networkStatus = AFNetworkReachabilityStatusNotReachable;
                     break;
                 }
                 case AFNetworkReachabilityStatusReachableViaWWAN: {
                     // 3G
                     NSLog(@"%@",@"3G");
-                    _networkStatus = AFNetworkReachabilityStatusReachableViaWWAN;
+                    self.networkStatus = AFNetworkReachabilityStatusReachableViaWWAN;
                     break;
                 }
                 case AFNetworkReachabilityStatusReachableViaWiFi: {
                     // WiFi
                     NSLog(@"%@",@"WiFi");
-                    _networkStatus = AFNetworkReachabilityStatusReachableViaWiFi;
+                    self.networkStatus = AFNetworkReachabilityStatusReachableViaWiFi;
                     break;
                 }
                 default: {

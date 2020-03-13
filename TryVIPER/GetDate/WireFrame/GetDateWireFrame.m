@@ -11,24 +11,6 @@
 @implementation GetDateWireFrame
 
 + (void)presentGetDateModuleFrom:(id)fromView {
-/*
-    // Generating module components
-    id <GetDateViewProtocol> view = [[GetDateView alloc] init];
-    id <GetDatePresenterProtocol> presenter = [GetDatePresenter new];
-    id <GetDateInteractorInputProtocol> interactor = [GetDateInteractor new];
-    id <GetDateAPIDataManagerProtocol> APIDataManager = [GetDateAPIDataManager new];
-    
-    id <GetDateWireFrameProtocol> wireFrame= [GetDateWireFrame new];
-    
-    // Connecting
-    view.presenter = presenter;
-    presenter.view = view;
-    presenter.wireFrame = wireFrame;
-    presenter.interactor = interactor;
-    interactor.apiDataManager = APIDataManager;
-    
-    //TOODO - New view controller presentation (present, push, pop, .. )
-*/
 }
 
 + (UIViewController*) initialViewController {
